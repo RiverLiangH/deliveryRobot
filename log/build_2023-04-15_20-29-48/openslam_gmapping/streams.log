@@ -1,0 +1,120 @@
+[0.005s] Invoking command in '/home/river/deliveryRobot_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/river/deliveryRobot_ws/src/slam_gmapping/openslam_gmapping -DCMAKE_INSTALL_PREFIX=/home/river/deliveryRobot_ws/install/openslam_gmapping
+[0.221s] -- The C compiler identification is GNU 11.3.0
+[0.349s] -- The CXX compiler identification is GNU 11.3.0
+[0.367s] -- Detecting C compiler ABI info
+[0.460s] -- Detecting C compiler ABI info - done
+[0.467s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.474s] -- Detecting C compile features
+[0.476s] -- Detecting C compile features - done
+[0.482s] -- Detecting CXX compiler ABI info
+[0.574s] -- Detecting CXX compiler ABI info - done
+[0.583s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.583s] -- Detecting CXX compile features
+[0.584s] -- Detecting CXX compile features - done
+[0.592s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.800s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.081s] -- Configuring done
+[1.110s] -- Generating done
+[1.114s] -- Build files have been written to: /home/river/deliveryRobot_ws/build/openslam_gmapping
+[1.130s] Invoked command in '/home/river/deliveryRobot_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/river/deliveryRobot_ws/src/slam_gmapping/openslam_gmapping -DCMAKE_INSTALL_PREFIX=/home/river/deliveryRobot_ws/install/openslam_gmapping
+[1.131s] Invoking command in '/home/river/deliveryRobot_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/river/deliveryRobot_ws/build/openslam_gmapping -- -j1 -l1
+[1.206s] [  4%] [32mBuilding CXX object utils/CMakeFiles/utils.dir/movement.cpp.o[0m
+[1.749s] [  9%] [32mBuilding CXX object utils/CMakeFiles/utils.dir/stat.cpp.o[0m
+[2.150s] [ 13%] [32m[1mLinking CXX static library libutils.a[0m
+[2.194s] [ 13%] Built target utils
+[2.216s] [ 18%] [32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensor.cpp.o[0m
+[2.490s] [ 22%] [32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensorreading.cpp.o[0m
+[2.738s] [ 27%] [32m[1mLinking CXX static library libsensor_base.a[0m
+[2.770s] [ 27%] Built target sensor_base
+[2.791s] [ 31%] [32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangereading.cpp.o[0m
+[3.432s] [ 36%] [32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.o[0m
+[3.984s] [ 40%] [32m[1mLinking CXX static library libsensor_range.a[0m
+[4.020s] [ 40%] Built target sensor_range
+[4.041s] [ 45%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/eig3.cpp.o[0m
+[4.297s] [ 50%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcher.cpp.o[0m
+[5.995s] [ 54%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcherprocessor.cpp.o[0m
+[6.818s] [ 59%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/smmap.cpp.o[0m
+[7.178s] [ 63%] [32m[1mLinking CXX static library libscanmatcher.a[0m
+[7.210s] [ 63%] Built target scanmatcher
+[7.239s] [ 68%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gfsreader.cpp.o[0m
+[8.614s] [ 72%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor.cpp.o[0m
+[10.605s] [ 77%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor_tree.cpp.o[0m
+[11.725s] [ 81%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/motionmodel.cpp.o[0m
+[12.132s] [ 86%] [32m[1mLinking CXX static library libgridfastslam.a[0m
+[12.168s] [ 86%] Built target gridfastslam
+[12.197s] [ 90%] [32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometryreading.cpp.o[0m
+[12.574s] [ 95%] [32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometrysensor.cpp.o[0m
+[12.860s] [100%] [32m[1mLinking CXX static library libsensor_odometry.a[0m
+[12.907s] [100%] Built target sensor_odometry
+[12.931s] Invoked command in '/home/river/deliveryRobot_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/river/deliveryRobot_ws/build/openslam_gmapping -- -j1 -l1
+[12.980s] Invoking command in '/home/river/deliveryRobot_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/river/deliveryRobot_ws/build/openslam_gmapping
+[12.993s] -- Install configuration: ""
+[12.994s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[12.994s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[12.994s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include/
+[12.994s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping
+[12.995s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/utils
+[12.995s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/utils/point.h
+[12.995s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/utils/macro_params.h
+[12.995s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/utils/stat.h
+[12.995s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/utils/autoptr.h
+[12.995s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/utils/gvalues.h
+[12.996s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/utils/commandline.h
+[12.996s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/gridfastslam
+[12.996s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx
+[12.996s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h
+[12.997s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h
+[12.997s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/grid
+[12.997s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/grid/accessstate.h
+[12.997s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/grid/array2d.h
+[12.997s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/grid/harray2d.h
+[12.998s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/grid/map.h
+[12.998s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/scanmatcher
+[12.998s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h
+[12.998s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h
+[12.998s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h
+[12.999s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/particlefilter
+[12.999s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h
+[12.999s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/sensor
+[12.999s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry
+[12.999s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h
+[12.999s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h
+[13.000s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range
+[13.000s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h
+[13.001s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h
+[13.001s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base
+[13.002s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h
+[13.003s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h
+[13.003s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/log
+[13.005s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/log/sensorlog.h
+[13.005s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/include//gmapping/log/configuration.h
+[13.006s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping
+[13.007s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping
+[13.008s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh
+[13.008s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv
+[13.009s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh
+[13.009s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv
+[13.009s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash
+[13.010s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh
+[13.010s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh
+[13.010s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv
+[13.010s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/share/openslam_gmapping/package.dsv
+[13.011s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping
+[13.011s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake
+[13.011s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.012s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake
+[13.012s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake
+[13.012s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/share/openslam_gmapping/package.xml
+[13.012s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/lib/libgridfastslam.a
+[13.013s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/lib/libscanmatcher.a
+[13.013s] -- Up-to-date: /home/river/deliveryRobot_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[13.014s] -- Up-to-date: /home/river/deliveryRobot_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[13.014s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/lib/libsensor_base.a
+[13.014s] -- Up-to-date: /home/river/deliveryRobot_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[13.014s] -- Up-to-date: /home/river/deliveryRobot_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[13.015s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/lib/libsensor_odometry.a
+[13.015s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/lib/libsensor_range.a
+[13.016s] -- Installing: /home/river/deliveryRobot_ws/install/openslam_gmapping/lib/libutils.a
+[13.016s] -- Up-to-date: /home/river/deliveryRobot_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[13.016s] -- Up-to-date: /home/river/deliveryRobot_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[13.029s] Invoked command in '/home/river/deliveryRobot_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/river/deliveryRobot_ws/build/openslam_gmapping

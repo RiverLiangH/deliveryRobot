@@ -1,0 +1,6 @@
+Invoking command in '/home/river/deliveryRobot_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/river/deliveryRobot_ws/src/slam_gmapping/openslam_gmapping -DCMAKE_INSTALL_PREFIX=/home/river/deliveryRobot_ws/install/openslam_gmapping
+Invoked command in '/home/river/deliveryRobot_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/river/deliveryRobot_ws/src/slam_gmapping/openslam_gmapping -DCMAKE_INSTALL_PREFIX=/home/river/deliveryRobot_ws/install/openslam_gmapping
+Invoking command in '/home/river/deliveryRobot_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/river/deliveryRobot_ws/build/openslam_gmapping -- -j1 -l1
+Invoked command in '/home/river/deliveryRobot_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/river/deliveryRobot_ws/build/openslam_gmapping -- -j1 -l1
+Invoking command in '/home/river/deliveryRobot_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/river/deliveryRobot_ws/build/openslam_gmapping
+Invoked command in '/home/river/deliveryRobot_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/river/deliveryRobot_ws/build/openslam_gmapping
